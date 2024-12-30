@@ -16,7 +16,7 @@ This is a full-stack Netflix clone application built with Node.js for the backen
 
 - Node.js
 - Express
-- MongoDB (or any other database of your choice)
+- MongoDB 
 - JWT for authentication
 
 ### Frontend
