@@ -42,7 +42,7 @@ This is a full-stack Netflix clone application built with Node.js for the backen
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/your-username/netflix-clone.git
+   git clone https://github.com/difervi/netflix-clone.git
    cd netflix-clone
 
 
