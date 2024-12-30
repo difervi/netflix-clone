@@ -1,0 +1,55 @@
+/* General styles */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #111; /* Fondo oscuro */
+}
+
+.home-container {
+    color: #fff;
+    padding: 20px;
+}
+
+.header {
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.movie-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 20px;
+}
+
+.movie-card {
+    position: relative;
+    width: 100%;
+    height: 300px;
+    background-color: #333;
+    border-radius: 10px;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.movie-card img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.movie-card .movie-title {
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+    color: #fff;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.movie-card:hover {
+    transform: scale(1.05);
+    transition: transform 0.2s ease-in-out;
+}

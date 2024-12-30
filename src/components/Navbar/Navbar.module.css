@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    aling-items: center;
+    padding: 20px 40px;
+    background-color: #141414;
+}
+
+.netflixLogo {
+    font-family: 'Bebas Neue', sans-serif;
+    color: #e50914;
+    font-size: 40px;
+    letter-spacing: 2px;
+}
+
+.searchBar {
+    display: flex;
+    align-items: center;
+    background-color: #333;
+    border-radius: 4px;
+    padding: 5px 10px;
+}
+
+.searchInput {
+    background: none;
+    border: none;
+    color: white;
+    outline: none;
+    font-size: 16px;
+    margin-left: 10px;
+}
+.searchIcon {
+    color: white;
+    font-size: 20px;
+}
